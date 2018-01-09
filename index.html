@@ -6,17 +6,9 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
 <style>
-  .red-text {
-    color: red;
-  }
 
   h2 {
     font-family: Lobster, Monospace;
-  }
-
-  p {
-    font-size: 16px;
-    font-family: Monospace;
   }
 
   .thick-green-border {
@@ -26,29 +18,27 @@
     border-radius: 50%;
   }
 
-  .smaller-image {
-    width: 100px;
-  }
-
  
 </style>
 
 <div class="container-fluid">
 
-<h2 class="red-text">CatPhotoApp</h2>
+<h2 class="text-primary text-center">CatPhotoApp</h2>
 
-<p>Click here for <a href="#">cat photos</a>.</p>
+Click here for <a href="#">cat photos</a>
 
-<br><a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
+<br><a href="#"><img class="img-responsive thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
 
 <br><img src="https://bit.ly/fcc-running-cats" class="img-responsive">
 
 <p>Color Buttons from diferent things:
-<button class="btn btn-block btn-primary">Like</button>
-<button class="btn btn-block btn-info">Info</button>
-<button class="btn btn-block btn-danger">Delete</button>
+<div class="row">
+    <div class="col-xs-4"><button class="btn btn-block btn-primary">Like</button></div>
+    <div class="col-xs-4"><button class="btn btn-block btn-info">Info</button></div>
+    <div class="col-xs-4"><button class="btn btn-block btn-danger">Delete</button></div>
+ </div>
 
-<p>Things cats love:</p>
+<p>Things cats <span class="text-danger">love</span>:</p>
 <ul>
   <li>cat nip</li>
   <li>laser pointers</li>
